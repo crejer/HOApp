@@ -1,0 +1,17 @@
+*.pidb
+*.userprefs
+*.swp
+*.DS_Store
+*.nib
+*.suo
+*.psd
+*/Thumbs.db
+
+*/bin/*
+*/obj/*
+*/*/bin/*
+*/*/obj/*
+*/*/*/bin/*
+*/*/*/obj/*
+*/*/*/*/bin/*
+*/*/*/*/obj/*
