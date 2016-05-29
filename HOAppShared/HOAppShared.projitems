@@ -9,5 +9,18 @@
     <Import_RootNamespace>HOAppShared</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)SGV\BL\Controllers\AppController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SGV\DAL\DatabaseObjects\CopyItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SGV\DAL\DatabaseObjects\IDatabaseObject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SGV\DL\Database.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SGV\DL\DatabaseHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SGV\DL\SQLite.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)SGV\BL\VO\" />
+    <Folder Include="$(MSBuildThisFileDirectory)SGV\DAL\Repositories\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)SharedAssets\ho.sqlite" />
   </ItemGroup>
 </Project>

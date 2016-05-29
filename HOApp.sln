@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HOAppAndroid", "HOAppAndroi
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		HOAppShared\HOAppShared.projitems*{042b30e8-8b41-4f6c-88e7-3d5f1d6b37c8}*SharedItemsImports = 4
+		HOAppShared\HOAppShared.projitems*{3b96eb5c-c70a-43fd-9cdb-1ed40fb66352}*SharedItemsImports = 4
 		HOAppShared\HOAppShared.projitems*{5449f915-eb80-463d-b605-c80aaefb9de3}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
