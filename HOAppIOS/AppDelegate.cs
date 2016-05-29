@@ -1,4 +1,5 @@
 ﻿using Foundation;
+using HOAppIOS.SGV.Controllers;
 using UIKit;
 
 namespace HOAppIOS
@@ -15,14 +16,14 @@ namespace HOAppIOS
             get;
             set;
         }
-
+        MainViewController _baseViewContr;
         public override bool FinishedLaunching(UIApplication application, NSDictionary launchOptions)
         {
             // create a new window instance based on the screen size
             Window = new UIWindow(UIScreen.MainScreen.Bounds);
-
+            _baseViewContr = new MainViewController();
             // If you have defined a root view controller, set it here:
-            // Window.RootViewController = myViewController;
+            Window.RootViewController = _baseViewContr;
 
             // make the window visible
             Window.MakeKeyAndVisible();
